@@ -19,7 +19,8 @@
   },
   "include": [
     "src",
-    "workshop-automated-testing/01-cypress-components/AppAppBar.cy.tsx"
+    "workshop-automated-testing/01-cypress-components/AppAppBar.cy.tsx",
+    "cypress.d.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

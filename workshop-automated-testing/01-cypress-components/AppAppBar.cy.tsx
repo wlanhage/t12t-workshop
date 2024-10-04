@@ -1,4 +1,3 @@
-import React from "react";
 import AppAppBar from "../../src/components/AppAppBar";
 
 describe("<AppAppBar />", () => {

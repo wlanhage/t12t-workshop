@@ -3,7 +3,6 @@ import customViteConfig from "./vite.config";
 
 export default defineConfig({
   video: false,
-
   component: {
     setupNodeEvents(on, config) {},
     devServer: {
