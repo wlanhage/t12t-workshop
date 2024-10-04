@@ -14,8 +14,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["cypress", "cypress-axe"]
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "workshop-automated-testing/01-cypress-components/AppAppBar.cy.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
