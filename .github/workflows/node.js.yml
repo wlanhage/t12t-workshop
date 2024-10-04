@@ -19,7 +19,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3 # Ensure Node.js version is specified
       with:
-        node-version: '16' # Or specify the Node.js version you need
+        node-version: '18' # Or specify the Node.js version you need
         cache: 'npm'       # Enable npm caching
 
     - name: Cache node modules
