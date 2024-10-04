@@ -3,7 +3,6 @@ import customViteConfig from "./vite.config";
 
 export default defineConfig({
   video: false,
-
   component: {
     setupNodeEvents(on, config) {},
     devServer: {
@@ -15,7 +14,18 @@ export default defineConfig({
 
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      on("task", {
+        log(message) {
+          console.log(message);
+
+          return null;
+        },
+        table(message) {
+          console.table(message);
+
+          return null;
+        },
+      });
     },
   },
 });

@@ -145,38 +145,38 @@ export default function Features() {
 
   return (
     <Container id="features" sx={{ py: { xs: 8, sm: 16 } }}>
-      <Box sx={{ width: { sm: '100%', md: '60%' } }}>
+      <Box sx={{ width: { sm: "100%", md: "60%" } }}>
         <Typography
           component="h2"
           variant="h4"
           gutterBottom
-          sx={{ color: 'text.primary' }}
+          sx={{ color: "text.primary" }}
         >
           Product features
         </Typography>
         <Typography
           variant="body1"
-          sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}
+          sx={{ color: "text.secondary", mb: { xs: 2, sm: 4 } }}
         >
-          Provide a brief overview of the key features of the product. For example,
-          you could list the number of features, their types or benefits, and
-          add-ons.
+          Provide a brief overview of the key features of the product. For
+          example, you could list the number of features, their types or
+          benefits, and add-ons.
         </Typography>
       </Box>
       <Box
         sx={{
-          display: 'flex',
-          flexDirection: { xs: 'column', md: 'row-reverse' },
+          display: "flex",
+          flexDirection: { xs: "column", md: "row-reverse" },
           gap: 2,
         }}
       >
         <div>
           <Box
             sx={{
-              display: { xs: 'none', sm: 'flex' },
-              flexDirection: 'column',
+              display: { xs: "none", sm: "flex" },
+              flexDirection: "column",
               gap: 2,
-              height: '100%',
+              height: "100%",
             }}
           >
             {items.map(({ icon, title, description }, index) => (
@@ -187,37 +187,39 @@ export default function Features() {
                 sx={[
                   (theme) => ({
                     p: 2,
-                    height: '100%',
-                    width: '100%',
-                    '&:hover': {
+                    height: "100%",
+                    width: "100%",
+                    "&:hover": {
                       backgroundColor: theme.palette.action.hover,
                     },
                   }),
                   selectedItemIndex === index && {
-                    backgroundColor: 'action.selected',
+                    backgroundColor: "action.selected",
                   },
                 ]}
               >
                 <Box
                   sx={[
                     {
-                      width: '100%',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'left',
+                      width: "100%",
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "left",
                       gap: 1,
-                      textAlign: 'left',
-                      textTransform: 'none',
-                      color: 'text.secondary',
+                      textAlign: "left",
+                      textTransform: "none",
+                      color: "text.secondary",
                     },
                     selectedItemIndex === index && {
-                      color: 'text.primary',
+                      color: "text.primary",
                     },
                   ]}
                 >
                   {icon}
 
-                  <Typography variant="h6">{title}</Typography>
+                  <Typography variant="h6" component="h3">
+                    {title}
+                  </Typography>
                   <Typography variant="body2">{description}</Typography>
                 </Box>
               </Box>
@@ -231,36 +233,36 @@ export default function Features() {
         </div>
         <Box
           sx={{
-            display: { xs: 'none', sm: 'flex' },
-            width: { xs: '100%', md: '70%' },
-            height: 'var(--items-image-height)',
+            display: { xs: "none", sm: "flex" },
+            width: { xs: "100%", md: "70%" },
+            height: "var(--items-image-height)",
           }}
         >
           <Card
             variant="outlined"
             sx={{
-              height: '100%',
-              width: '100%',
-              display: { xs: 'none', sm: 'flex' },
-              pointerEvents: 'none',
+              height: "100%",
+              width: "100%",
+              display: { xs: "none", sm: "flex" },
+              pointerEvents: "none",
             }}
           >
             <Box
               sx={(theme) => ({
-                m: 'auto',
+                m: "auto",
                 width: 420,
                 height: 500,
-                backgroundSize: 'contain',
-                backgroundImage: 'var(--items-imageLight)',
-                ...theme.applyStyles('dark', {
-                  backgroundImage: 'var(--items-imageDark)',
+                backgroundSize: "contain",
+                backgroundImage: "var(--items-imageLight)",
+                ...theme.applyStyles("dark", {
+                  backgroundImage: "var(--items-imageDark)",
                 }),
               })}
               style={
                 items[selectedItemIndex]
                   ? ({
-                      '--items-imageLight': items[selectedItemIndex].imageLight,
-                      '--items-imageDark': items[selectedItemIndex].imageDark,
+                      "--items-imageLight": items[selectedItemIndex].imageLight,
+                      "--items-imageDark": items[selectedItemIndex].imageDark,
                     } as any)
                   : {}
               }
