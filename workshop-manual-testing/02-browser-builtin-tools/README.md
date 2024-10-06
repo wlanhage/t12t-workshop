@@ -23,7 +23,6 @@ De webbläsare som vi kommer att arbeta med i denna övning är:
 3. **Analysera resultatet**
    Utvärdera de problem som upptäcks av verktygen. Fokusera på områden där problem rapporteras, exempelvis:
    - **Kontrastproblem** – Kontrollera om text och bakgrund har tillräcklig kontrast för att vara läsbara.
-   - **Aria-attribut** – Inspektera om ARIA-attribut är korrekt implementerade.
    - **Bilder och alternativ text** – Se till att alla bilder har alternativa beskrivningar (alt-text) för skärmläsare.
    - **Semantiska HTML-element** – Kontrollera om rätt HTML-element används för rätt ändamål (t.ex. `<button>` istället för `<div>` för interaktiva element).
 
@@ -31,16 +30,8 @@ De webbläsare som vi kommer att arbeta med i denna övning är:
    Sammanfatta de viktigaste tillgänglighetsproblemen som identifierats under granskningen. Fundera över hur dessa problem kan åtgärdas och dokumentera dina förslag.
 
 5. **Implementera lösningar**
-   Gör ändringar i koden baserat på dina fynd och utför en ny granskning för att säkerställa att problemen har lösts. Försök särskilt fokusera på:
-   - Förbättrad färgkontrast
-   - Rätt användning av ARIA och semantisk HTML
-   - Korrekt tangentbordsnavigering
+   Gör ändringar i koden baserat på dina fynd och utför en ny granskning för att säkerställa att problemen har lösts.
 
-## Mål med övningen
-
-- Lära sig att använda de inbyggda tillgänglighetsverktygen i webbläsare.
-- Förstå hur olika tillgänglighetsaspekter påverkar användarupplevelsen.
-- Utföra konkreta förbättringar av tillgängligheten på en webbsida.
 
 ## Dokumentation och resurser
 

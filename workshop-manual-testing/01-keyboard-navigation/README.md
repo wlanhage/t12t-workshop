@@ -5,7 +5,7 @@ I denna övning ska vi testa och förbättra hur enkelt det är att navigera en 
 ## Instruktioner
 
 1. **Öppna webbsidan**
-   Gå till webbsidan i detta repo med din webbläsare.
+   Gå till webbsidan (http://localhost:5173/manual/keyboard) i detta repo med din webbläsare.
 
 2. **Navigera med tangentbordet**
    Använd bara tangentbordet för att navigera sidan:
@@ -18,7 +18,11 @@ I denna övning ska vi testa och förbättra hur enkelt det är att navigera en 
    - Är det tydligt vilket element som är i fokus? Kontrollera att ett synligt fokus (t.ex. en ram eller bakgrundsfärg) visas runt det aktiva elementet.
    - Går det att navigera menyer och andra interaktiva områden med tangentbordet?
 
-4. **Utvärdera och föreslå förbättringar**
+4. **Kombinera manuella tester med plugin för fokusordning**
+[NerdeFocus](https://chromewebstore.google.com/detail/nerdefocus/lpfiljldhgjecfepfljnbjnbjfhennpd) - Identifierar problem med tangentbordsfokus. Loggar det för närvarande fokuserade elementet när man navigerar genom sidan.
+
+
+5. **Utvärdera och föreslå förbättringar**
    Om du upptäcker problem, dokumentera vad som inte fungerar. Fundera på hur du kan förbättra sidan så att den blir lättare att navigera med tangentbordet.
 
 ## Mål med övningen

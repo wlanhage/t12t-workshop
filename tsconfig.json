@@ -15,12 +15,16 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["cypress", "cypress-axe"]
+    "types": ["cypress", "cypress-axe"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
     "src",
     "workshop-automated-testing/01-cypress-components/AppAppBar.cy.tsx",
-    "cypress.d.ts"
+    "cypress.d.ts",
+    "workshop-manual-testing/01-keyboard-navigation/MarketingPageBrokenKeyboard.tsx"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

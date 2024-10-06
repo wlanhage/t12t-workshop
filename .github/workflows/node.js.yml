@@ -28,15 +28,14 @@ jobs:
         path: |
           ~/.npm
           node_modules
+          ~/.cache/Cypress
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-node-
 
     - name: Install modules
       run: npm install
-    # - name: Run unit tests
-    #   run: yarn test
-    # - name: Run Cypress component tests
-    #   run: yarn test:components:ci
+    - name: Verify Cypress installation (if binary missing)
+      run: npx cypress install # Install Cypress binary if missing
     - name: Run Cypress tests
       run: npm run ci:e2e
