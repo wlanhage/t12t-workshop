@@ -22,9 +22,9 @@
   },
   "include": [
     "src",
-    "workshop-automated-testing/01-cypress-components/AppAppBar.cy.tsx",
+    "src/workshops/automated-testing/01-cypress-components/AppAppBar.cy.tsx",
     "cypress.d.ts",
-    "workshop-manual-testing/01-keyboard-navigation/MarketingPageBrokenKeyboard.tsx"
+    "src/workshops/manual-testing/01-keyboard-navigation/MarketingPageBrokenKeyboard.tsx"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

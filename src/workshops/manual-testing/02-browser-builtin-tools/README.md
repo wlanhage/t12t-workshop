@@ -18,6 +18,9 @@ De webbläsare som vi kommer att arbeta med i denna övning är:
    - I **Safari**: Aktivera utvecklarverktygen via Safari-inställningarna om de inte redan är synliga. Öppna sedan verktygen och gå till fliken "Accessibility".
 
 2. **Kör en första granskning**
+   Använd komponenten `MarkeringPageBrowser.tsx` i denna mapp som utgång. När projektet körs igång `npm run dev` så finns den på http://localhost:5173/manual/browser
+
+
    Välj webbsidan från detta repo och använd de inbyggda tillgänglighetsverktygen i din valda webbläsare för att köra en granskning. Särskilda tillgänglighetsproblem kommer att lyftas fram, och vissa webbläsare som Chrome ger tillgång till automatisk rapportering via fliken "Lighthouse".
 
 3. **Analysera resultatet**

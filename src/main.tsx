@@ -2,10 +2,10 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MarketingPage from "./MarketingPage";
-import MarketingPageBrokenKeyboard from "../workshop-manual-testing/01-keyboard-navigation/MarketingPageBrokenKeyboard";
-import MarketingPageBrowser from "../workshop-manual-testing/02-browser-builtin-tools/MarketingPageBrowser";
-import MarketingPagePlugins from "../workshop-manual-testing/03-browser-plugins/MarketingPagePlugins";
-import MarketingPageIntegration from "../workshop-automated-testing/02-cypress-integration/MarketingPageIntegration";
+import MarketingPageBrokenKeyboard from "@/workshops/manual-testing/01-keyboard-navigation/MarketingPageBrokenKeyboard";
+import MarketingPageBrowser from "@/workshops/manual-testing/02-browser-builtin-tools/MarketingPageBrowser";
+import MarketingPagePlugins from "@/workshops/manual-testing/03-browser-plugins/MarketingPagePlugins";
+import MarketingPageIntegration from "@/workshops/automated-testing/02-cypress-integration/MarketingPageIntegration";
 
 const router = createBrowserRouter([
   {

@@ -1,4 +1,4 @@
-import AppAppBar from "../../src/components/AppAppBar";
+import AppAppBar from "../../../components/AppAppBar";
 
 describe("<AppAppBar />", () => {
   it("renders", () => {

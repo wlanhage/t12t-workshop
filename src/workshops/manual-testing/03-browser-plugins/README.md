@@ -14,6 +14,8 @@ För att genomföra denna övning använder vi följande verktyg som browser-plu
 
 ## Steg för att genomföra övningen
 
+För alla plugins används komponenten `MarkeringPagePlugins.tsx` som analysunderlag. Den hittas under http://localhost:5173/manual/plugins efter att projektet körts igång via `npm run dev`
+
 1. **Installera plugin**
    Om du inte redan har det installerat, ladda ner och installera något av ovanstående tillgänglighetsverktyg till din webbläsare.
 
