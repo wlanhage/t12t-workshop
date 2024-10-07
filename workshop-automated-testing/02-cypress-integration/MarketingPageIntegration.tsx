@@ -5,7 +5,7 @@ import AppAppBar from "@/components/AppAppBar";
 import Hero from "@/components/a11y-errors/browser/Hero";
 import LogoCollection from "@/components/a11y-errors/browser/LogoCollection";
 import Highlights from "@/components/Highlights";
-import Pricing from "@/components/Pricing";
+import Pricing from "@/components/a11y-errors/automated/Pricing";
 import Features from "@/components/Features";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
