@@ -33,6 +33,7 @@ export default function MarketingPageIntegration() {
         <FAQ />
         <Divider />
         <Footer />
+        <Footer />
       </div>
     </ThemeProvider>
   );
